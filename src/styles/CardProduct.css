@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@500&display=swap');
+
+.section-btn {
+	margin: 1rem;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	gap: 1rem;
+}
+
+.btn {
+	cursor: pointer;
+}
+
+.card {
+	margin: 1rem;
+}
+
+.price {
+	color: rgb(252, 177, 79);
+	font-family: 'kanit';
+	font-weight: 300;
+	font-size: larger;
+	padding: 0;
+	margin: 0;
+}

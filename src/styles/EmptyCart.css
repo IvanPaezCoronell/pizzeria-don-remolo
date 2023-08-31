@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@500&display=swap');
+
+.empty-cart-icon {
+	font-size: 15rem !important;
+	color: #d4d4d4;
+}
+
+.empty-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-top: 3rem;
+}
+
+h2,
+h6 {
+	color: rgb(71, 71, 71);
+	font-family: kanit, 'Times New Roman', Times, serif;
+	font-weight: 400;
+}
+
+h6 {
+	color: #e74423;
+}
+
+p {
+	font-family: kanit, 'Times New Roman', Times, serif;
+	font-style: normal;
+	color: #9b9b9b;
+}
+
+.card-actions {
+	justify-content: center;
+}
+
+.btn-empty-cart {
+	text-transform: capitalize !important;
+	color: #e74423 !important;
+	font-size: large !important;
+}

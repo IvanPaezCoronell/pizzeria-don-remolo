@@ -1,0 +1,100 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "img": "/images/napolitana.jpg",
+      "category": "pizza",
+      "name": "Napolitana",
+      "description": "Masa tierna y delgada con bordes altos. tomate, mozzarella, Grana Padano rallado, albahaca, champiñones, alcachofa, jamón cocido, aceitunas. ",
+      "price": 25000
+    },
+    {
+      "id": 2,
+      "img": "/images/muzzarella.jpg",
+      "category": "pizza",
+      "name": "Muzzarrella",
+      "description": "Es una receta compuesta por una masa baja y crocante con una cubierta de salsa de tomate, mozzarella, aceitunas y orégano.",
+      "price": 20000
+    },
+    {
+      "id": 3,
+      "img": "/images/jamonymorron.jpg",
+      "category": "pizza",
+      "name": "Jamon - Morron",
+      "description": "Pizza tradicional de argentina, lleva mozzarella, jamon cocido, oregano, morron rojo cocido, tomate, sal, pimienta ",
+      "price": 23000
+    },
+    {
+      "id": 4,
+      "img": "/images/empanada_carne.jpg",
+      "category": "empanada",
+      "name": "Empanada de carne",
+      "description": "Deliciosa empanada de carne al horno con masa de la casa",
+      "price": 2500
+    },
+    {
+      "id": 5,
+      "img": "/images/empanada_jamonyqueso.jpg",
+      "category": "empanada",
+      "name": "Jamon y queso",
+      "description": "Deliciosa empanada de jamon y queso al horno con masa de la casa.",
+      "price": 3000
+    },
+    {
+      "id": 6,
+      "img": "/images/empanada_atun.jpg",
+      "category": "empanada",
+      "name": "Empanada de atun",
+      "description": "Deliciosa empanada de atun al horno con masa de la casa.",
+      "price": 3000
+    },
+    {
+      "id": 7,
+      "img": "/images/almendrado.jpg",
+      "category": "postres",
+      "name": "Almendrado",
+      "description": "Postre de almendrado con chocolate. ",
+      "price": 4000
+    },
+    {
+      "id": 8,
+      "img": "/images/bombones.jpg",
+      "category": "postres",
+      "name": "Bombones",
+      "description": "Bombones de chocolates ",
+      "price": 5000
+    },
+    {
+      "id": 9,
+      "img": "/images/helado.jpg",
+      "category": "postres",
+      "name": "Helado de chocolate",
+      "description": "Paleta de chocolate ",
+      "price": 4500
+    },
+    {
+      "id": 10,
+      "img": "/images/agua.jpg",
+      "category": "bebidas",
+      "name": "Agua",
+      "description": "300 ml ",
+      "price": 2000
+    },
+    {
+      "id": 11,
+      "img": "/images/cerveza.jpg",
+      "category": "bebidas",
+      "name": "Cerveza Brahma",
+      "description": "472 ml",
+      "price": 3500
+    },
+    {
+      "id": 12,
+      "img": "/images/gaseosa.jpg",
+      "category": "bebidas",
+      "name": "Pepsi",
+      "description": "400 ml",
+      "price": 2500
+    }
+  ]
+}
