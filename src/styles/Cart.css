@@ -1,0 +1,145 @@
+.container-checkout {
+	max-width: 1000px;
+	margin-right: auto;
+	margin-left: auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 2rem;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.back-check {
+	display: flex;
+	margin: 8rem 0 1rem 7rem;
+}
+
+.total {
+	display: flex;
+	align-items: end;
+	justify-content: right;
+	margin: 2rem 8rem 5rem 0;
+	font-size: 20px;
+	font-weight: 800;
+}
+
+.table {
+	width: 80%;
+	border: 1px solid #eee;
+}
+.table-header {
+	display: flex;
+	width: 100%;
+	background: #acacac;
+	padding: 18px 0;
+}
+.table-row {
+	display: flex;
+	width: 100%;
+	padding: 18px 0;
+}
+.table-row:nth-of-type(odd) {
+	background: #eee;
+}
+.table-data,
+.header__item {
+	flex: 1 1 20%;
+	display: flex;
+	text-align: center;
+	justify-content: center;
+	gap: 1rem;
+	color: #656565;
+}
+.header__item {
+	text-transform: uppercase;
+}
+.filter__link {
+	color: white;
+	text-decoration: none;
+	position: relative;
+	display: inline-block;
+	padding-left: 24px;
+	padding-right: 24px;
+}
+.filter__link::after {
+	content: '';
+	position: absolute;
+	right: -18px;
+	color: white;
+	font-size: 12px;
+	top: 50%;
+	transform: translateY(-50%);
+}
+.filter__link.desc::after {
+	content: '(desc)';
+}
+.filter__link.asc::after {
+	content: '(asc)';
+}
+
+.button {
+	position: relative;
+	overflow: hidden;
+	height: 3rem;
+	padding: 0 2rem;
+	border-radius: 1rem;
+	background: #3d3a4e;
+	background-size: 400%;
+	color: #fff;
+	border: none;
+	cursor: pointer;
+	font-size: 15px;
+}
+
+.button:hover::before {
+	transform: scaleX(1);
+}
+
+.button-content {
+	display: flex;
+	justify-content: center;
+	position: relative;
+	z-index: 1;
+	gap: 1rem;
+}
+
+.button::before {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	transform: scaleX(0);
+	transform-origin: 0 50%;
+	width: 100%;
+	height: inherit;
+	border-radius: inherit;
+	background: linear-gradient(82.3deg, #e74423 10.8%, rgb(238, 113, 88) 94.3%);
+	transition: all 0.475s;
+}
+
+.actions-checkout {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-bottom: 10rem;
+}
+
+.btns {
+	display: flex;
+	flex-direction: column;
+	width: 20rem;
+	gap: 1rem;
+}
+.back {
+	background-color: #3d3a4e00;
+	border: none;
+	cursor: pointer;
+}
+.text-btn-back {
+	color: #3d3a4e;
+}
+
+#btn-action {
+	cursor: pointer;
+}

@@ -20,7 +20,7 @@ const Footer = () => {
 				</p>
 
 				<h2>Pizzeria Don Remolo</h2>
-				<img src="../../public/images/icon.png" alt="" />
+				<img src="/images/icon.png" alt="" />
 				<div className="icons">
 					<button onClick={notify} className="btn-icons">
 						<InstagramIcon style={{ color: 'white' }} />

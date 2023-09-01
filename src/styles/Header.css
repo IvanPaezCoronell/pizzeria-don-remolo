@@ -4,7 +4,7 @@
 .header-container {
 	margin-top: 5rem !important;
 	padding: 6rem;
-	background-image: url('../../public/images/bg.png');
+	background-image: url('/images/bg.png');
 	background-repeat: no-repeat;
 	position: relative;
 }

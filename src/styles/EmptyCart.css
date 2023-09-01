@@ -2,7 +2,7 @@
 
 .empty-cart-icon {
 	font-size: 15rem !important;
-	color: #d4d4d4;
+	color: #ecbe7a;
 }
 
 .empty-container {
@@ -11,25 +11,13 @@
 	justify-content: center;
 	align-items: center;
 	margin-top: 3rem;
+	padding: 12rem !important;
 }
 
-h2,
-h6 {
-	color: rgb(71, 71, 71);
-	font-family: kanit, 'Times New Roman', Times, serif;
-	font-weight: 400;
+#text-color {
+	color: rgb(70, 70, 70);
+	font-family: 'Courier New', Courier, monospace;
 }
-
-h6 {
-	color: #e74423;
-}
-
-p {
-	font-family: kanit, 'Times New Roman', Times, serif;
-	font-style: normal;
-	color: #9b9b9b;
-}
-
 .card-actions {
 	justify-content: center;
 }
@@ -38,4 +26,11 @@ p {
 	text-transform: capitalize !important;
 	color: #e74423 !important;
 	font-size: large !important;
+}
+
+@media (width <= 1000px) {
+	.empty-container {
+		margin-bottom: 15rem;
+		padding: 5rem !important;
+	}
 }

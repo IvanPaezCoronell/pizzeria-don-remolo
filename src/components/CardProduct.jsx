@@ -12,7 +12,7 @@ import '../styles/CardProduct.css';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
-export default function CardProduct({ name, img, id, price, description }) {
+ export default function CardProduct({ name, img, id, price, description }) {
 
 	const [cart, setCart] = React.useContext(CartContext);
 	const notify = () => toast.success(`Producto agregado al carrito.`,{autoClose: 500});
@@ -92,3 +92,4 @@ export default function CardProduct({ name, img, id, price, description }) {
 		</Card>
 	);
 }
+
